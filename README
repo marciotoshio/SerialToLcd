@@ -1,0 +1,3 @@
+Arduino sketch that receives a message from the serial port and sends it to a lcd display.
+
+Specific to use with this other project: https://github.com/marciotoshio/TwitterToSerial
