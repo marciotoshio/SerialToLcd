@@ -28,7 +28,7 @@ void loop()
     resetLcd(0, 0);
     showStaticMessageInLcd("Waiting", 0);
     showStaticMessageInLcd("tweets", 1);
-    wait("Waiting tweets");
+    waitWithAMessage("Waiting tweets");
   }
 }
 
@@ -36,7 +36,7 @@ void waitConnection() {
   resetLcd(0, 0);
   showStaticMessageInLcd("Waiting", 0);
   showStaticMessageInLcd("connection...", 1);
-  wait("Waiting connection");
+  waitWithAMessage("Waiting connection");
 }
 
 void waitWithAMessage(String message) {
